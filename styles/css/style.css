@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*Roboto Text*/
+/*Roboto Text*/
+/*Color Palette*/
+/*Color Palette*/
+.spacing {
+  height: 20px;
+  width: 90%;
+  display: flex;
+  align-self: center;
+}
+
+.spacing-line {
+  height: 20px;
+  width: 90%;
+  border-bottom: 0.5px solid lightgray;
+  display: flex;
+  align-self: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .spacing {
+    height: 10px;
+    width: 95%;
+    display: flex;
+    align-self: center;
+  }
+  .spacing-line {
+    height: 10px;
+    width: 95%;
+    border-bottom: 0.5px solid lightgray;
+    display: flex;
+    align-self: center;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: darkred;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+}
+.main-container {
+  width: 600px;
+  height: 2000px;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .main-container {
+    width: 100%;
+    height: 2000px;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+}
+.sone {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: gray 0px 1px 10px;
+}
+.sone .logo-container {
+  height: 100%;
+  width: auto;
+}
+.sone .logo-container img {
+  height: 100%;
+  width: 100;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .sone {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: gray 0px 1px 10px;
+  }
+}
+.stwo {
+  width: 90%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stwo .stwo-one {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.stwo .stwo-one .stwo-one-textbox {
+  height: 100%;
+  width: 95%;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-one {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  height: 40%;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-one h1 {
+  color: #bd1e2d;
+  font-size: 20px;
+  font-weight: bold;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-one h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #bd1e2d;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-one h3 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  height: 30%;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-one {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-one h1 {
+  font-size: 8px;
+  color: #585858;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-one h2 {
+  font-size: 12px;
+  color: #000000;
+  font-weight: 400;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-two {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-two h1 {
+  font-size: 8px;
+  color: #585858;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-two h2 {
+  font-size: 12px;
+  color: #000000;
+  font-weight: 400;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-three {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  height: 30%;
+}
+.stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-three a {
+  height: 40px;
+  width: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bd1e2d;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+.stwo .stwo-two {
+  width: 50%;
+  height: 100%;
+}
+.stwo .stwo-two .img-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  overflow: hidden;
+  /* Animation for fading in and out */
+}
+.stwo .stwo-two .img-container img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.stwo .stwo-two .img-container .mySlides {
+  display: none;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* Ensure images cover the entire container */
+}
+.stwo .stwo-two .img-container .mySlides:first-child {
+  display: block;
+}
+@keyframes fade {
+  from {
+    opacity: 0.9;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.stwo .stwo-two .img-container .fade {
+  animation-name: fade;
+  animation-duration: 1s;
+  /* Adjust duration */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .stwo {
+    width: 95%;
+    height: 500px;
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  .stwo .stwo-one {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .stwo .stwo-one .stwo-one-textbox {
+    height: 100%;
+    width: 100%;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-one {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    height: 45%;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-one h1 {
+    color: #bd1e2d;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-one h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #bd1e2d;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-one h3 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    height: 40%;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-one {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-one h1 {
+    font-size: 8px;
+    color: #585858;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-one h2 {
+    font-size: 12px;
+    color: #000000;
+    font-weight: 400;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-two {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-two h1 {
+    font-size: 8px;
+    color: #585858;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-two h2 {
+    font-size: 12px;
+    color: #000000;
+    font-weight: 400;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-three {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+    height: 15%;
+  }
+  .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-three a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bd1e2d;
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .stwo .stwo-two {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+  }
+  .stwo .stwo-two .img-container {
+    height: 100%;
+    width: auto;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    overflow: hidden;
+  }
+  .stwo .stwo-two .img-container img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.sthree {
+  width: 90%;
+  height: 400px;
+  display: flex;
+  flex-flow: column;
+}
+.sthree .sthree-one {
+  height: 8%;
+  display: flex;
+  align-items: flex-start;
+}
+.sthree .sthree-one h1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #bd1e2d;
+}
+.sthree .sthree-two {
+  height: 82%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #bd1e2d;
+}
+.sthree .sthree-two img {
+  height: 100%;
+  width: 100%;
+}
+.sthree .sthree-three {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bd1e2d;
+  border: 1px solid #bd1e2d;
+}
+.sthree .sthree-three a {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .sthree {
+    width: 95%;
+    height: 250px;
+    display: flex;
+    flex-flow: column;
+  }
+  .sthree .sthree-one {
+    height: 8%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .sthree .sthree-one h1 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #bd1e2d;
+  }
+  .sthree .sthree-two {
+    height: 82%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #bd1e2d;
+  }
+  .sthree .sthree-two img {
+    height: 100%;
+    width: 100%;
+  }
+  .sthree .sthree-three {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bd1e2d;
+    border: 1px solid #bd1e2d;
+  }
+  .sthree .sthree-three a {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+  }
+}
+.sfour {
+  height: 40px;
+  width: 90%;
+  display: flex;
+  flex-flow: column;
+}
+.sfour a {
+  height: 40px;
+  width: 100%;
+  background-color: #25D366;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .sfour {
+    height: 40px;
+    width: 95%;
+    display: flex;
+    flex-flow: column;
+  }
+}/*# sourceMappingURL=style.css.map */

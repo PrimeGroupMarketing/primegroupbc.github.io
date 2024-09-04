@@ -1,0 +1,293 @@
+.stwo {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .stwo-one {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        .stwo-one-textbox {
+            height: 100%;
+            width: 95%;
+
+            .stwo-one-textbox-one {
+                display: flex;
+                justify-content: center;
+                flex-flow: column;
+                height: 40%;
+
+                h1 {
+                    color: $darkred;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+                h2 {
+                    font-size: 28px;
+                    font-weight: bold;
+                    color: $darkred;
+                }
+
+                h3 {
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: $black;
+                }
+            }
+
+            .stwo-one-textbox-two {
+                display: flex;
+                justify-content: center;
+                flex-flow: column;
+                height: 30%;
+
+                .stwo-one-textbox-two-one {
+                    height: 50%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    flex-flow: column;
+
+                    h1 {
+                        font-size: 8px;
+                        color: #585858;
+                    }
+
+                    h2 {
+                        font-size: 12px;
+                        color: #000000;
+                        font-weight: 400;
+                    }
+                }
+
+                .stwo-one-textbox-two-two {
+                    height: 50%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    flex-flow: column;
+
+                    h1 {
+                        font-size: 8px;
+                        color: #585858;
+                    }
+
+                    h2 {
+                        font-size: 12px;
+                        color: #000000;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .stwo-one-textbox-three {
+                display: flex;
+                justify-content: center;
+                flex-flow: column;
+                height: 30%;
+
+                a {
+                    height: 40px;
+                    width: 145px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $darkred;
+                    color: white;
+                    border: none;
+                    font-size: 12px;
+                    font-family: $bodytext;
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .stwo-two {
+        width: 50%;
+        height: 100%;
+
+        .img-container {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            position: relative;
+            justify-content: flex-end;
+            overflow: hidden;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .mySlides {
+                display: none;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                /* Ensure images cover the entire container */
+            }
+
+            .mySlides:first-child {
+                display: block;
+            }
+
+            /* Animation for fading in and out */
+            @keyframes fade {
+                from {
+                    opacity: 0.9;
+                }
+
+                to {
+                    opacity: 1;
+                }
+            }
+
+            .fade {
+                animation-name: fade;
+                animation-duration: 1s;
+                /* Adjust duration */
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+    .stwo {
+        width: 95%;
+        height: 500px;
+        display: flex;
+        flex-flow: column-reverse;
+
+        .stwo-one {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            .stwo-one-textbox {
+                height: 100%;
+                width: 100%;
+    
+                .stwo-one-textbox-one {
+                    display: flex;
+                    justify-content: center;
+                    flex-flow: column;
+                    height: 45%;
+    
+                    h1 {
+                        color: $darkred;
+                        font-size: 24px;
+                        font-weight: bold;
+                    }
+    
+                    h2 {
+                        font-size: 24px;
+                        font-weight: bold;
+                        color: $darkred;
+                    }
+    
+                    h3 {
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: $black;
+                    }
+                }
+    
+                .stwo-one-textbox-two {
+                    display: flex;
+                    justify-content: center;
+                    flex-flow: column;
+                    height: 40%;
+    
+                    .stwo-one-textbox-two-one {
+                        height: 50%;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        flex-flow: column;
+    
+                        h1 {
+                            font-size: 8px;
+                            color: #585858;
+                        }
+    
+                        h2 {
+                            font-size: 12px;
+                            color: #000000;
+                            font-weight: 400;
+                        }
+                    }
+    
+                    .stwo-one-textbox-two-two {
+                        height: 50%;
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-start;
+                        flex-flow: column;
+    
+                        h1 {
+                            font-size: 8px;
+                            color: #585858;
+                        }
+    
+                        h2 {
+                            font-size: 12px;
+                            color: #000000;
+                            font-weight: 400;
+                        }
+                    }
+                }
+    
+                .stwo-one-textbox-three {
+                    display: flex;
+                    justify-content: flex-end;
+                    flex-flow: column;
+                    height: 15%;
+                    a {
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: $darkred;
+                        color: white;
+                        border: none;
+                        font-size: 12px;
+                        font-family: $bodytext;
+                        font-weight: 500;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .stwo-two {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: darkgray;
+
+            .img-container {
+                height: 100%;
+                width: auto;
+                display: flex;
+                position: relative;
+                justify-content: flex-end;
+                overflow: hidden;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

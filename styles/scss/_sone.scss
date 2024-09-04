@@ -1,0 +1,29 @@
+.sone {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: gray 0px 1px 10px;
+
+    .logo-container {
+        height: 100%;
+        width: auto;
+
+        img {
+            height: 100%;
+            width: 100;
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+    .sone {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: gray 0px 1px 10px;
+    }
+}

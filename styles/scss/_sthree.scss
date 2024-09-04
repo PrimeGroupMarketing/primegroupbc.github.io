@@ -1,0 +1,101 @@
+.sthree{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-flow: column;
+    .sthree-one{
+        height: 8%;
+        display: flex;
+        align-items: flex-start;
+        h1{
+            font-size: 14px;
+            font-weight: bold;
+            color: $darkred;
+        }
+    }
+
+    .sthree-two{
+        height: 82%;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        border: 1px solid $darkred;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .sthree-three{
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $darkred;
+        border: 1px solid $darkred;
+        a{
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            font-weight: 500;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+    .sthree{
+        width: 95%;
+        height: 250px;
+        display: flex;
+        flex-flow: column;
+        .sthree-one{
+            height: 8%;
+            display: flex;
+            align-items: flex-start;
+            h1{
+                font-size: 14px;
+                font-weight: bold;
+                color: $darkred;
+            }
+        }
+    
+        .sthree-two{
+            height: 82%;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            border: 1px solid $darkred;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    
+        .sthree-three{
+            height: 10%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $darkred;
+            border: 1px solid $darkred;
+            a{
+                font-size: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                font-weight: 500;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
