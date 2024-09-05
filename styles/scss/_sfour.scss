@@ -1,30 +1,17 @@
 .sfour {
-    height: 50px;
+    height: 250px;
     width: 90%;
     display: flex;
     flex-flow: column;
-    a {
-        height: 50px;
-        width: 100%;
-        background-color: #25D366;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        border: none;
-        font-size: 12px;
-        font-family: $bodytext;
-        font-weight: 500;
-        text-decoration: none;
+    justify-content: space-between;
+    .sfour-one {
+        height: 20px;
+        font-size: 16px;
+        font-weight:bold;
+        color: $darkred;
     }
 }
-
-@media only screen and (min-width: 320px) and (max-width:480px){
-    .sfour {
-        height: 50px;
-        width: 90%;
-        display: flex;
-        flex-flow: column;
+    .sfour-two {
         a {
             height: 50px;
             width: 100%;
@@ -40,4 +27,138 @@
             text-decoration: none;
         }
     }
-}
+    
+    .sfour-three {
+        a {
+            height: 50px;
+            width: 100%;
+            background-color: #1877F2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border: none;
+            font-size: 12px;
+            font-family: $bodytext;
+            font-weight: 500;
+            text-decoration: none;
+        }
+    }
+    
+    .sfour-four {
+        a {
+            height: 50px;
+            width: 100%;
+            background-color: #fbad50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border: none;
+            font-size: 12px;
+            font-family: $bodytext;
+            font-weight: 500;
+            text-decoration: none;
+        }
+    }
+    
+    .sfour-five {
+        a {
+            height: 50px;
+            width: 100%;
+            background-color: #0072b1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border: none;
+            font-size: 12px;
+            font-family: $bodytext;
+            font-weight: 500;
+            text-decoration: none;
+        }
+    }
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+        .sfour {
+            height: 300px;
+            width: 90%;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            .sfour-one {
+                height: 20px;
+                font-size: 16px;
+                font-weight:bold;
+                color: $darkred;
+            }
+        }
+            .sfour-two {
+                a {
+                    height: 50px;
+                    width: 100%;
+                    background-color: #25D366;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    border: none;
+                    font-size: 12px;
+                    font-family: $bodytext;
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+            }
+            
+            .sfour-three {
+                a {
+                    height: 50px;
+                    width: 100%;
+                    background-color: #1877F2;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    border: none;
+                    font-size: 12px;
+                    font-family: $bodytext;
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+            }
+            
+            .sfour-four {
+                a {
+                    height: 50px;
+                    width: 100%;
+                    background-color: #fbad50;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    border: none;
+                    font-size: 12px;
+                    font-family: $bodytext;
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+            }
+            
+            .sfour-five {
+                a {
+                    height: 50px;
+                    width: 100%;
+                    background-color: #0072b1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    border: none;
+                    font-size: 12px;
+                    font-family: $bodytext;
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+            }
+        
+        }

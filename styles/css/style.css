@@ -63,7 +63,7 @@ body {
 }
 .main-container {
   width: 600px;
-  height: 1150px;
+  height: 1370px;
   background-color: white;
   display: flex;
   flex-flow: column;
@@ -73,7 +73,7 @@ body {
 @media only screen and (min-width: 320px) and (max-width: 560px) {
   .main-container {
     width: 560px;
-    height: 1380px;
+    height: 1630px;
     background-color: white;
     display: flex;
     flex-flow: column;
@@ -380,7 +380,7 @@ body {
   align-items: flex-start;
 }
 .sthree .sthree-one h1 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: #bd1e2d;
 }
@@ -466,12 +466,20 @@ body {
   }
 }
 .sfour {
-  height: 50px;
+  height: 250px;
   width: 90%;
   display: flex;
   flex-flow: column;
+  justify-content: space-between;
 }
-.sfour a {
+.sfour .sfour-one {
+  height: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #bd1e2d;
+}
+
+.sfour-two a {
   height: 50px;
   width: 100%;
   background-color: #25D366;
@@ -486,17 +494,111 @@ body {
   text-decoration: none;
 }
 
+.sfour-three a {
+  height: 50px;
+  width: 100%;
+  background-color: #1877F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.sfour-four a {
+  height: 50px;
+  width: 100%;
+  background-color: #fbad50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.sfour-five a {
+  height: 50px;
+  width: 100%;
+  background-color: #0072b1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .sfour {
-    height: 50px;
+    height: 300px;
     width: 90%;
     display: flex;
     flex-flow: column;
+    justify-content: space-between;
   }
-  .sfour a {
+  .sfour .sfour-one {
+    height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #bd1e2d;
+  }
+  .sfour-two a {
     height: 50px;
     width: 100%;
     background-color: #25D366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .sfour-three a {
+    height: 50px;
+    width: 100%;
+    background-color: #1877F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .sfour-four a {
+    height: 50px;
+    width: 100%;
+    background-color: #fbad50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .sfour-five a {
+    height: 50px;
+    width: 100%;
+    background-color: #0072b1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -518,7 +620,7 @@ body {
   height: 20%;
 }
 .sfive .sfive-one h1 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: #bd1e2d;
 }
