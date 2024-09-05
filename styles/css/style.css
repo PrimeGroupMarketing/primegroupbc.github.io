@@ -73,7 +73,7 @@ body {
 @media only screen and (min-width: 320px) and (max-width: 560px) {
   .main-container {
     width: 560px;
-    height: 1330px;
+    height: 1380px;
     background-color: white;
     display: flex;
     flex-flow: column;
@@ -248,7 +248,7 @@ body {
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .stwo {
     width: 90%;
-    height: 600px;
+    height: 650px;
     display: flex;
     flex-flow: column-reverse;
   }
@@ -345,7 +345,7 @@ body {
   }
   .stwo .stwo-two {
     width: 100%;
-    height: 300px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
