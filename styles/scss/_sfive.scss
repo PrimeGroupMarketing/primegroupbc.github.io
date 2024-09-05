@@ -1,0 +1,26 @@
+.sfive{
+    width: 90%;
+    height: 90px;
+    display: flex;
+    flex-flow: column;
+    .sfive-one{
+        height: 20%;
+        h1{
+            font-size: 14px;
+            font-weight: bold;
+            color: $darkred;
+        }
+    }
+    .sfive-two{
+        height: 80%;
+        max-width: 40%;
+        display: flex;
+        align-items:flex-end;
+        justify-content: space-between;
+        svg{
+            height: 55px;
+            fill: $black;
+        }
+    }
+    
+}

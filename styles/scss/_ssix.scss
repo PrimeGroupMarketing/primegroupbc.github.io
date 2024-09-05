@@ -1,0 +1,18 @@
+.ssix{
+    height: 35px;
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    h1{
+        font-size: 14px;
+        font-weight: bold;
+        color: $darkred;
+    }
+    a{
+        font-size: 12px;
+        color: #000000;
+        font-weight: 400;
+        text-decoration: none;
+    }
+}
