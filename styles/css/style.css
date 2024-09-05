@@ -20,13 +20,13 @@
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .spacing {
-    height: 40px;
+    height: 20px;
     width: 95%;
     display: flex;
     align-self: center;
   }
   .spacing-line {
-    height: 40px;
+    height: 20px;
     width: 95%;
     border-bottom: 0.5px solid lightgray;
     display: flex;
@@ -56,7 +56,7 @@ body {
   body {
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: #bd1e2d;
     display: flex;
     justify-content: center;
   }
@@ -70,10 +70,10 @@ body {
   align-items: center;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 560px) {
   .main-container {
-    width: 100%;
-    height: 1250px;
+    width: 560px;
+    height: 1330px;
     background-color: white;
     display: flex;
     flex-flow: column;
@@ -254,7 +254,7 @@ body {
   }
   .stwo .stwo-one {
     width: 100%;
-    height: 40%;
+    height: 300px;
     display: flex;
     align-items: center;
   }
@@ -266,7 +266,7 @@ body {
     display: flex;
     justify-content: center;
     flex-flow: column;
-    height: 45%;
+    height: 125px;
   }
   .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-one h1 {
     color: #bd1e2d;
@@ -287,7 +287,7 @@ body {
     display: flex;
     justify-content: center;
     flex-flow: column;
-    height: 40%;
+    height: 125px;
   }
   .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-one {
     height: 50%;
@@ -297,13 +297,14 @@ body {
     flex-flow: column;
   }
   .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-one h1 {
-    font-size: 8px;
+    font-size: 10px;
     color: #585858;
   }
   .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-one h2 {
-    font-size: 12px;
+    font-size: 14px;
     color: #000000;
     font-weight: 400;
+    text-decoration: none;
   }
   .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-two {
     height: 50%;
@@ -313,19 +314,20 @@ body {
     flex-flow: column;
   }
   .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-two h1 {
-    font-size: 8px;
+    font-size: 10px;
     color: #585858;
   }
   .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-two .stwo-one-textbox-two-two h2 {
-    font-size: 12px;
+    font-size: 14px;
     color: #000000;
     font-weight: 400;
+    text-decoration: none;
   }
   .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-three {
     display: flex;
     justify-content: flex-end;
     flex-flow: column;
-    height: 15%;
+    height: 50px;
   }
   .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-three a {
     height: 100%;
@@ -343,7 +345,7 @@ body {
   }
   .stwo .stwo-two {
     width: 100%;
-    height: 60%;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -418,17 +420,17 @@ body {
     flex-flow: column;
   }
   .sthree .sthree-one {
-    height: 8%;
+    height: 25px;
     display: flex;
     align-items: flex-start;
   }
   .sthree .sthree-one h1 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     color: #bd1e2d;
   }
   .sthree .sthree-two {
-    height: 82%;
+    height: 225px;
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -439,7 +441,7 @@ body {
     width: 100%;
   }
   .sthree .sthree-three {
-    height: 10%;
+    height: 50px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -460,13 +462,13 @@ body {
   }
 }
 .sfour {
-  height: 40px;
+  height: 50px;
   width: 90%;
   display: flex;
   flex-flow: column;
 }
 .sfour a {
-  height: 40px;
+  height: 50px;
   width: 100%;
   background-color: #25D366;
   display: flex;
@@ -482,10 +484,24 @@ body {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .sfour {
-    height: 40px;
+    height: 50px;
     width: 90%;
     display: flex;
     flex-flow: column;
+  }
+  .sfour a {
+    height: 50px;
+    width: 100%;
+    background-color: #25D366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    text-decoration: none;
   }
 }
 .sfive {
@@ -522,15 +538,15 @@ body {
     flex-flow: column;
   }
   .sfive .sfive-one {
-    height: 20%;
+    height: 15px;
   }
   .sfive .sfive-one h1 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     color: #bd1e2d;
   }
   .sfive .sfive-two {
-    height: 80%;
+    height: 55px;
     max-width: 40%;
     display: flex;
     align-items: flex-end;
@@ -542,19 +558,19 @@ body {
   }
 }
 .ssix {
-  height: 35px;
+  height: 40px;
   width: 90%;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
 }
 .ssix h1 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: #bd1e2d;
 }
 .ssix a {
-  font-size: 12px;
+  font-size: 16px;
   color: #000000;
   font-weight: 400;
   text-decoration: none;

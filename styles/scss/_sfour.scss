@@ -1,10 +1,10 @@
 .sfour {
-    height: 40px;
+    height: 50px;
     width: 90%;
     display: flex;
     flex-flow: column;
     a {
-        height: 40px;
+        height: 50px;
         width: 100%;
         background-color: #25D366;
         display: flex;
@@ -21,9 +21,23 @@
 
 @media only screen and (min-width: 320px) and (max-width:480px){
     .sfour {
-        height: 40px;
+        height: 50px;
         width: 90%;
         display: flex;
         flex-flow: column;
+        a {
+            height: 50px;
+            width: 100%;
+            background-color: #25D366;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border: none;
+            font-size: 12px;
+            font-family: $bodytext;
+            font-weight: 500;
+            text-decoration: none;
+        }
     }
 }

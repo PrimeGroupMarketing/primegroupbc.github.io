@@ -55,18 +55,18 @@
         display: flex;
         flex-flow: column;
         .sthree-one{
-            height: 8%;
+            height: 25px;
             display: flex;
             align-items: flex-start;
             h1{
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: bold;
                 color: $darkred;
             }
         }
     
         .sthree-two{
-            height: 82%;
+            height: 225px;
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -78,7 +78,7 @@
         }
     
         .sthree-three{
-            height: 10%;
+            height: 50px;
             width: 100%;
             display: flex;
             align-items: center;

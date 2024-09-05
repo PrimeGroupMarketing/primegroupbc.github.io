@@ -167,7 +167,7 @@
 
         .stwo-one {
             width: 100%;
-            height: 40%;
+            height: 300px;
             display: flex;
             align-items: center;
             .stwo-one-textbox {
@@ -178,7 +178,7 @@
                     display: flex;
                     justify-content: center;
                     flex-flow: column;
-                    height: 45%;
+                    height: 125px;
     
                     h1 {
                         color: $darkred;
@@ -203,7 +203,7 @@
                     display: flex;
                     justify-content: center;
                     flex-flow: column;
-                    height: 40%;
+                    height: 125px;
     
                     .stwo-one-textbox-two-one {
                         height: 50%;
@@ -213,14 +213,15 @@
                         flex-flow: column;
     
                         h1 {
-                            font-size: 8px;
+                            font-size: 10px;
                             color: #585858;
                         }
     
                         h2 {
-                            font-size: 12px;
+                            font-size: 14px;
                             color: #000000;
                             font-weight: 400;
+                            text-decoration: none;
                         }
                     }
     
@@ -232,14 +233,15 @@
                         flex-flow: column;
     
                         h1 {
-                            font-size: 8px;
+                            font-size: 10px;
                             color: #585858;
                         }
     
                         h2 {
-                            font-size: 12px;
+                            font-size: 14px;
                             color: #000000;
                             font-weight: 400;
+                            text-decoration: none;
                         }
                     }
                 }
@@ -248,7 +250,7 @@
                     display: flex;
                     justify-content: flex-end;
                     flex-flow: column;
-                    height: 15%;
+                    height: 50px;
                     a {
                         height: 100%;
                         width: 100%;
@@ -269,7 +271,7 @@
 
         .stwo-two {
             width: 100%;
-            height: 60%;
+            height: 300px;
             display: flex;
             justify-content: center;
             align-items: center;

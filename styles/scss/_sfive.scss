@@ -32,15 +32,15 @@
         display: flex;
         flex-flow: column;
         .sfive-one{
-            height: 20%;
+            height: 15px;
             h1{
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: bold;
                 color: $darkred;
             }
         }
         .sfive-two{
-            height: 80%;
+            height: 55px;
             max-width: 40%;
             display: flex;
             align-items:flex-end;
