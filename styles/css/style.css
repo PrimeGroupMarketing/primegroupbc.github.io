@@ -247,14 +247,14 @@ body {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .stwo {
-    width: 95%;
-    height: 500px;
+    width: 90%;
+    height: 600px;
     display: flex;
     flex-flow: column-reverse;
   }
   .stwo .stwo-one {
     width: 100%;
-    height: 50%;
+    height: 40%;
     display: flex;
     align-items: center;
   }
@@ -343,7 +343,7 @@ body {
   }
   .stwo .stwo-two {
     width: 100%;
-    height: 50%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -412,7 +412,7 @@ body {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .sthree {
-    width: 95%;
+    width: 90%;
     height: 300px;
     display: flex;
     flex-flow: column;
@@ -483,7 +483,7 @@ body {
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .sfour {
     height: 40px;
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-flow: column;
   }
@@ -514,6 +514,33 @@ body {
   fill: #000000;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .sfive {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    flex-flow: column;
+  }
+  .sfive .sfive-one {
+    height: 20%;
+  }
+  .sfive .sfive-one h1 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #bd1e2d;
+  }
+  .sfive .sfive-two {
+    height: 80%;
+    max-width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .sfive .sfive-two svg {
+    height: 40px;
+    fill: #000000;
+  }
+}
 .ssix {
   height: 35px;
   width: 90%;

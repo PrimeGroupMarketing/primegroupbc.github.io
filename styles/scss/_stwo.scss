@@ -160,14 +160,14 @@
 
 @media only screen and (min-width: 320px) and (max-width:480px) {
     .stwo {
-        width: 95%;
-        height: 500px;
+        width: 90%;
+        height: 600px;
         display: flex;
         flex-flow: column-reverse;
 
         .stwo-one {
             width: 100%;
-            height: 50%;
+            height: 40%;
             display: flex;
             align-items: center;
             .stwo-one-textbox {
@@ -269,7 +269,7 @@
 
         .stwo-two {
             width: 100%;
-            height: 50%;
+            height: 60%;
             display: flex;
             justify-content: center;
             align-items: center;
