@@ -270,11 +270,11 @@ body {
   }
   .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-one h1 {
     color: #bd1e2d;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
   }
   .stwo .stwo-one .stwo-one-textbox .stwo-one-textbox-one h2 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     color: #bd1e2d;
   }
@@ -358,10 +358,14 @@ body {
     position: relative;
     justify-content: flex-end;
     overflow: hidden;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .stwo .stwo-two .img-container img {
     height: 250px;
     width: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .sthree {
